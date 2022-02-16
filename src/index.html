@@ -3,11 +3,645 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>POTR POTS</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="header__nav">
+            <a href="https://tvoyammn.github.io/Potr_Pots/" class="logo">
+              <h2 class="header__logo">
+                POTR POTS
+              </h2>
+            </a>
+            <div class="header__menu">
+              <div class="header__list">
+                <div class="header__item">
+                  <a href="#features" class="header__link">
+                    Features
+                  </a>
+                </div>
+                <div class="header__item">
+                  <a href="#about-us" class="header__link">
+                    About us
+                  </a>
+                </div>
+                <div class="header__item">
+                  <a href="#materials" class="header__link">
+                    Materials
+                  </a>
+                </div>
+                <div class="header__item">
+                  <a href="#message-us" class="header__link">
+                    Message us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a href="#benefits">
+              <button class="header__basket-button"></button>
+            </a>
+            <a href="#menu" class="header__menu-opener"></a>
+          </div>
+        </div>
+      </header>
+
+      <nav class="page__menu menu" id="menu">
+        <div class="menu__content">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <button class="menu__basket-button">
+                Basket
+              </button>
+              <span class="menu__basket-button-number">
+                0
+              </span>
+            </li>
+            <li class="menu__item">
+              <a href="#features" class="menu__link">Features</a>
+            </li>
+            <li class="menu__item">
+              <a href="#materials" class="menu__link">Materials</a>
+            </li>
+            <li class="menu__item">
+              <a href="#about-us" class="menu__link">About us</a>
+            </li>
+            <li class="menu__item">
+              <a href="#message-us" class="menu__link">Message us</a>
+            </li>
+          </ul>
+          <div class="menu__close">
+            <a href="#" class="menu__close-link">
+              &#9587;
+            </a>
+            <hr class="menu__close-line"></hr>
+            <a href="#" class="menu__close-link">
+              CLOSE
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="preview">
+          <div class="preview__polygon"></div>
+          <div class="container">
+            <div class="preview__content">
+              <div class="preview__image-container">
+                <img class="preview__image" src="./images/cactus_image.png" alt="Cactus Image">
+              </div>
+              <div class="preview__info">
+                <div class="preview__title">
+                  <h1 class="preview__title-text">
+                    <span class="transparent-text">
+                      POTR ~ Eco,
+                      <br>
+                      self-
+                    </span>
+                    watering,
+                    <br>
+                      origami
+                    <span class="transparent-text">
+                      plant
+                    </span>
+                    <br>
+                      pots
+                  </h1>
+                </div>
+                <div class="preview__price">
+                  <p class="preview__cost">$ 7,50</p>
+                  <p class="preview__offer">
+                    Get the second order
+                    <br>
+                    in half price
+                  </p>
+                </div>
+                <button class="buy-button preview__buy-button">
+                  <div class="buy-button__text">
+                    Buy now
+                  </div>
+                  <span class="buy-button-arrow"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <a href="#for-whom" class="preview__more-about">
+            <p class="preview__more-about-text">
+              More about  POTR POTS
+            </p>
+            <span class="preview__more-about-arrow"></span>
+          </a>
+        </section>
+        <section class="for-whom" id="for-whom">
+          <div class="container">
+            <h2 class="for-whom__title">
+              For whom?
+            </h2>
+            <article class="for-whom__article for-whom__article--1">
+              <div class="for-whom__image-wrapper">
+                <img class="for-whom__image for-whom__image--1" src="./images/for-whom-1.png" alt="Flower in a pot">
+              </div>
+              <div class="for-whom__text">
+                <p class="for-whom__micro-title">
+                  Robust
+                </p>
+                <h2 class="for-whom__article-number">
+                  1
+                </h2>
+                <h2 class="for-whom__title for-whom__title--dash">
+                  For those who value durable things
+                </h2>
+                <p class="for-whom__article-text">
+                  Don’t worry if you happen to knock
+                  your POTR on the floor, unlike a traditional
+                  ceramic pot it will take the fall in its stride.
+                </p>
+              </div>
+            </article>
+            <div class="desktop-container">
+              <article class="for-whom__article for-whom__article--2 for-whom__article--tablet-reverse">
+                <div class="for-whom__image-wrapper">
+                  <img class="for-whom__image for-whom__image--2" src="./images/for-whom-2.png" alt="Cactus in a pot">
+                </div>
+                <div class="for-whom__text">
+                  <p class="for-whom__micro-title for-whom__micro-title--right">
+                    Beautiful
+                  </p>
+                  <h2 class="for-whom__article-number">
+                    2
+                  </h2>
+                  <h2 class="for-whom__title for-whom__title--dash">
+                    For those who love modern design
+                  </h2>
+                  <p class="for-whom__article-text">
+                    We strived to achieve something that would
+                    look beautiful in your home while being incredibly
+                    functional and intuitive to use.
+                  </p>
+                </div>
+              </article>
+              <article class="for-whom__article for-whom__article--3">
+                <div class="for-whom__image-wrapper">
+                  <img class="for-whom__image for-whom__image--3" src="./images/for-whom-3.png" alt="Booba pot">
+                </div>
+                <div class="for-whom__text for-whom__text--3">
+                  <p class="for-whom__micro-title">
+                    Saves time
+                  </p>
+                  <h2 class="for-whom__article-number">
+                    3
+                  </h2>
+                  <h2 class="for-whom__title for-whom__title--dash for-whom__title--dash-3">
+                    For those who don't have enough time to regular water indoor plants
+                  </h2>
+                  <p class="for-whom__article-text">
+                    Water is drawn up through the cotton
+                    by the plant using tried and tested wicking
+                    technology.  It's particularly useful if you
+                    aren’t able to water them yourself on a regular basis!
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section class="features" id="features">
+          <div class="container">
+            <h1 class="features__title">
+              POTR Pots <span class="transparent-text">Features</span>
+            </h1>
+            <div class="features__container">
+              <div class="feature">
+                <img src="./images/feature1.png" alt="First Feature Image" class="feature__image">
+                <h3 class="feature__title">
+                  Flat pack postage
+                </h3>
+                <p class="feature__text">
+                  The pots will be shipped flat packed
+                  so they can be slipped through your letter box
+                </p>
+              </div>
+              <div class="feature">
+                <img src="./images/feature2.png" alt="First Feature Image" class="feature__image">
+                <h3 class="feature__title">
+                  Easy assembly
+                </h3>
+                <p class="feature__text">
+                  POTR Pots are super easy (and super satisfying)
+                  to assemble using the quick draw cotton cord
+                </p>
+              </div>
+              <div class="feature">
+                <img src="./images/feature3.png" alt="First Feature Image" class="feature__image">
+                <h3 class="feature__title">
+                  Self-watering
+                </h3>
+                <p class="feature__text">
+                  Simply add water into the pot - if your plant is
+                  thirsty it will automatically start drinking the water
+                  through the cotton cord. Magic!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="team" id="about-us">
+          <div class="container">
+            <h1 class="team__title">
+              Meet the POTR team!
+            </h1>
+          </div>
+          <div class="container">
+            <h1 class="team__large-name team__large-name--martin transparent-text">
+              Martin
+            </h1>
+            <div class="team__container">
+              <div class="team__image-container">
+                <img class="team__image" src="./images/team.png" alt="Potr Team">
+              </div>
+              <p class="team__text">
+                Andy and Martin are experienced product designers
+                with a love of plants and the environment.
+                They have over ten years combined industry experience
+                in bringing products to market at some of the
+                worlds largest consumer product companies.
+                <br>
+                <br>
+                Having studied Product Design Engineering
+                together at the Glasgow School of Art, they
+                have a long history of working as a team
+                on a variety of design projects.
+              </p>
+            </div>
+          </div>
+          <h1 class="team__large-name team__large-name--andy transparent-text">
+            Andy
+          </h1>
+          <div class="team__polygon"></div>
+        </section>
+        <section class="materials" id="materials">
+          <div class="container">
+            <h1 class="materials__title">
+              Materials and
+              <br>
+              Features
+            </h1>
+            <div class="materials__text">
+              <h3 class="materials__subtitle">
+                Environmentally friendly
+              </h3>
+              <p class="materials__info-text">
+                All materials used in our pots are made from 100% recycled materials and are 100% recyclable at the end of life (should you ever choose to get rid of your POTR!). All materials have been sourced from within Europe to reduce our carbon footprint when transporting the raw materials, and all manufacturing is carried out in the UK.
+              </p>
+            </div>
+            <div class="materials__interactive-container">
+              <div class="materials__image-wrapper">
+                <img class="materials__image" src="./images/materials.png" alt="Materials">
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide mySwiper__slide">
+                    <div class="mySwiper__text">
+                      We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                  <div class="swiper-slide mySwiper__slide">
+                    <div class="mySwiper__text">
+                      2We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                  <div class="swiper-slide mySwiper__slide">
+                    <div class="mySwiper__text">
+                      3We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                  <div class="swiper-slide mySwiper__slide">
+                    <div class="mySwiper__text">
+                      4We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                  <div class="swiper-slide mySwiper__slide">
+                    <div class="mySwiper__text">
+                      5We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="materials__buttons-list">
+                <button class="materials__button materials__button--1">
+                  <div class="materials__info">
+                    <div class="materials__info-content">
+                      1We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </button>
+                <button class="materials__button materials__button--2">
+                  <div class="materials__info">
+                    <div class="materials__info-content">
+                      2We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </button>
+                <button class="materials__button materials__button--3">
+                  <div class="materials__info">
+                    <div class="materials__info-content">
+                      3We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </button>
+                <button class="materials__button materials__button--4">
+                  <div class="materials__info">
+                    <div class="materials__info-content">
+                      4We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </button>
+                <button class="materials__button materials__button--5">
+                  <div class="materials__info">
+                    <div class="materials__info-content">
+                      We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="potr-size">
+          <div class="container">
+            <h1 class="port-size__title">
+              Which size POTR for my house plant ?
+            </h1>
+            <div class="port-size__content">
+              <div class="port-size__info">
+                <div class="port-size__desktop-wrapper">
+                  <p class="port-size__text">
+                    Pre potted plants come in fairly standard sized pots, and can be classified into one of two categories
+                  </p>
+                  <div class="port-size__image-wrapper">
+                    <img src="./images/port-size.png" alt="Port Sizing" class="port-size__image">
+                  </div>
+                  <div class="port-size__tablet-wrapper">
+                    <div class="port-size__articles">
+                      <article class="port-size__article">
+                        <h4 class="port-size__article-title">
+                          Large
+                        </h4>
+                        <p class="port-size__text">
+                          Large POTR Pot = 14cm diameter (1.5 litre) house plant pot or less
+                        </p>
+                      </article>
+                      <article class="port-size__article">
+                        <h4 class="port-size__article-title">
+                          Small
+                        </h4>
+                        <p class="port-size__text">
+                          Small POTR Pot = 10cm diameter (0.49 litre) house plant pot or less
+                        </p>
+                      </article>
+                    </div>
+                    <div class="port-size__image-wrapper port-size__image-wrapper--tablet-only">
+                      <img src="./images/port-size.png" alt="Port Sizing" class="port-size__image">
+                    </div>
+                  </div>
+                </div>
+                <p class="port-size__text port-size__text--star">
+                  POTR Pots have a little bit of give around the top rim so can fit slightly larger sizes than the recommended sizes stated above if necessary.
+                </p>
+              </div>
+              <div class="port-size__image-wrapper port-size__image-wrapper--desktop-only">
+                <img src="./images/port-size.png" alt="Port Sizing" class="port-size__image">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="benefits" id="benefits">
+          <div class="container">
+            <div class="benefits__content">
+              <div class="benefits__photocard-area">
+                <div class="benefits__photocard benefits__photocard--1">
+                  <div class="benefits__photocard-container benefits__photocard-container--1"></div>
+                  <p class="benefits__photocard-info">
+                    Bobbiny cotton cord colour options
+                  </p>
+                </div>
+                <div class="benefits__photocard benefits__photocard--2">
+                  <div class="benefits__photocard-container benefits__photocard-container--2"></div>
+                  <p class="benefits__photocard-info">
+                    Origami experiments
+                  </p>
+                </div>
+                <div class="benefits__photocard benefits__photocard--3">
+                  <div class="benefits__photocard-container benefits__photocard-container--3"></div>
+                  <p class="benefits__photocard-info">
+                    Bobbiny cotton cord colour options3
+                  </p>
+                </div>
+                <div class="benefits__photocard benefits__photocard--4">
+                  <div class="benefits__photocard-container benefits__photocard-container--4"></div>
+                  <p class="benefits__photocard-info">
+                    POTR Pots compliment other house hold objects.
+                  </p>
+                </div>
+                <div class="benefits__photocard benefits__photocard--5">
+                  <div class="benefits__photocard-container benefits__photocard-container--5"></div>
+                  <p class="benefits__photocard-info">
+                    A plant pot for the 21st century.
+                  </p>
+                </div>
+                <div class="benefits__photocard benefits__photocard--6">
+                  <div class="benefits__photocard-container benefits__photocard-container--6"></div>
+                  <p class="benefits__photocard-info">
+                    POTR pots ready to go!
+                  </p>
+                </div>
+              </div>
+              <div class="benefits__info">
+                <ul class="benefits__list">
+                  <li class="benefits__item">
+                    <h1 class="benefits__title">
+                      Easy assembly
+                    </h1>
+                    <p class="benefits__text">
+                      Pull the draw string to assemble!
+                    </p>
+                  </li>
+                  <li class="benefits__item">
+                    <h1 class="benefits__title">
+                      Flat pack postage
+                    </h1>
+                    <p class="benefits__text">
+                      POTR pots arrive flat packed in an envelope!
+                    </p>
+                  </li>
+                  <li class="benefits__item">
+                    <h1 class="benefits__title">
+                      Self-watering
+                    </h1>
+                    <p class="benefits__text">
+                      Add water to POTR and watch your plant drink!
+                    </p>
+                  </li>
+                </ul>
+                <div class="benefits__button-sale-container">
+                  <button class="buy-button benefits__buy-button">
+                    <div class="buy-button__text">
+                      Buy now
+                    </div>
+                    <span class="buy-button-arrow"></span>
+                  </button>
+                  <div class="benefits__sale">
+                    <h2 class="benefits__sale-title">
+                      50% off
+                    </h2>
+                    <h3 class="benefits__sale-text">
+                      Get the second order in half price
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="questions" id="message-us">
+          <div class="questions__polygon"></div>
+          <div class="container">
+            <h2 class="questions__title">
+              have any questions?
+            </h2>
+            <div class="questions__content">
+              <div class="questions__tablet-wrapper">
+                <p class="questions__subtitle">
+                  Here few ways to get in touch with us:
+                </p>
+                <form
+                  class="questions__form"
+                  action="#"
+                  method="GET"
+                  id="questionsForm"
+                >
+                  <h2 class="questions__form-title">
+                    Message us
+                  </h2>
+                  <label>
+                    <input
+                      class="questions__form-input"
+                      type="text"
+                      required
+                      placeholder="Name"
+                      id="name"
+                    >
+                  </label>
+                  <label>
+                    <input
+                      class="questions__form-input"
+                      type="email"
+                      required
+                      placeholder="Email"
+                      id="email"
+                    >
+                  </label>
+                  <label>
+                    <input
+                      class="questions__form-input questions__form-input--last"
+                      type="text"
+                      required
+                      placeholder="Message"
+                      id="message"
+                    >
+                  </label>
+                  <button id="questionsSubmitButton" class="questions__form-button" type="submit">
+                    <p class="questions__form-button-text">
+                      Submit
+                    </p>
+                  </button>
+                </form>
+              </div>
+              <div class="questions__contacts">
+                <div class="questions__contact">
+                  <h2 class="questions__contact-title">
+                    Our phone
+                  </h2>
+                  <a href="tel:+7 098 454 56 34" class="questions__contact-text">
+                    +7 098 454 56 34
+                  </a>
+                </div>
+                <div class="questions__contact">
+                  <h2 class="questions__contact-title">
+                    Our email
+                  </h2>
+                  <a href="mailto:potrpots@gmail.com" class="questions__contact-text">
+                    potrpots@gmail.com
+                  </a>
+                </div>
+                <div class="questions__contact">
+                  <h2 class="questions__contact-title">
+                    Our office
+                  </h2>
+                  <a href="https://goo.gl/maps/Rs3nBXo9Y1prs8EE9" class="questions__contact-text" target="_blank">
+                    United Kingdom  99 Staple Hill Road, Bristol, BS16 5AD
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__content-left">
+              <h3 class="footer__title">
+                Address
+              </h3>
+              <a href="https://goo.gl/maps/Rs3nBXo9Y1prs8EE9" class="questions__contact-text footer__text" target="_blank">
+                United Kingdom
+                <br>
+                99 Staple Hill Road,
+                <br>
+                Bristol, BS16 5AD
+              </a>
+            </div>
+            <div class="footer__content-center">
+              <ul class="footer__media-list">
+                <li class="footer__item">
+                  <a href="https://twitter.com/" class="footer__icon footer__icon--1" target="_blank"></a>
+                </li>
+                <li class="footer__item">
+                  <a href="https://www.instagram.com/" class="footer__icon footer__icon--2" target="_blank"></a>
+                </li>
+                <li class="footer__item">
+                  <a href="https://uk-ua.facebook.com/" class="footer__icon footer__icon--3" target="_blank"></a>
+                </li>
+              </ul>
+              <a href="https://tvoyammn.github.io/Potr_Pots/" class="logo">
+                <h2 class="footer__logo">
+                  POTR POTS
+                </h2>
+              </a>
+              <p class="footer__copyright">
+                Copyright © 2019
+              </p>
+            </div>
+            <div class="footer__content-right">
+              <h3 class="footer__title">
+                About us
+              </h3>
+              <p class="footer__text">
+                Copyright © 2019
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
